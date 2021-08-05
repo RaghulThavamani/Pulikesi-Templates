@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+
+        <LinearLayout
+            android:id="@+id/rate"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            tools:ignore="UnusedAttribute,UseCompoundDrawables">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:background="@drawable/rate_review"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rate_this_app"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/share"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            tools:ignore="UnusedAttribute,UseCompoundDrawables">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:background="@drawable/share"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/share_this_app"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/feedback"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            tools:ignore="UnusedAttribute,UseCompoundDrawables">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/darker_gray"
+                android:background="@drawable/feedback"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send_feedback"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/sendSocialMediaPages"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            tools:ignore="UnusedAttribute,UseCompoundDrawables">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:background="@drawable/play"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send_meme_pages_social_sites"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/about"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            tools:ignore="UnusedAttribute,UseCompoundDrawables">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:background="@drawable/disclaimer"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_disclaimer"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

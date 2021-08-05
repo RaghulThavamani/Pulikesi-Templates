@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Pulikesi Templates</string>
+
+    <string name="settings">settings</string>
+    <string name="rate_this_app">Rate this App</string>
+    <string name="share_this_app">Share this App</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="send_meme_pages_social_sites">Send Meme pages - Social Sites</string>
+    <string name="about_disclaimer">About - Disclaimer</string>
+    <string name="dear_creators">Dear Creators,</string>
+    <string name="all_meme_pages_social_sites_are_copyright_of_their_perspective_owners_any_request_to_remove_meme_pages_social_sites_from_our_application_will_be_honoured">All Meme Pages, Social sites are copyright of their perspective owners. Any request to remove Meme Pages, Social sites from our application will be honoured.</string>
+    <string name="yours_lovely">Yours Lovely,</string>
+    <string name="imsai_arasan">Imsai Arasan 😎</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="are_you_sure_you_want_to_exit">Are you Sure Want to Exit?</string>
+    <string name="what_would_you_like_to_do">What would you like to do?</string>
+    <string name="recommended_meme_pages">Recommended Meme Pages</string>
+    <string name="recommended_social_sites">Recommended Social Sites</string>
+    <string name="meme_templates">Meme Templates</string>
+    <string name="version">Version</string>
+    <string name="movies_list">movies_list</string>
+    <string name="medias_list">medias_list</string>
+    <string name="btn_cancel">btn_cancel</string>
+    <string name="btn_done">btn_done</string>
+    <string name="btn_save">btn_save</string>
+    <string name="btn_share">btn_share</string>
+    <string name="iv_view">iv_view</string>
+</resources>

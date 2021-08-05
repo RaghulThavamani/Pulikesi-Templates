@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:id="@+id/layout"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+
+
+        <TextView
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:text="@string/recommended_meme_pages"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:contentDescription="@string/app_name"
+                android:scrollbars="horizontal"
+                android:orientation="horizontal"
+                android:id="@+id/recyclerViewMemePage"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:contentDescription="@string/app_name"
+                android:backgroundTint="@color/colorAccent"
+                android:id="@+id/trending"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:clickable="true"
+                app:srcCompat="@drawable/trending" />
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:contentDescription="@string/app_name"
+                android:backgroundTint="@color/colorAccent"
+                android:layout_marginStart="20dp"
+                android:id="@+id/movies"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:clickable="true"
+                app:srcCompat="@drawable/movie" />
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:contentDescription="@string/app_name"
+                android:backgroundTint="@color/colorAccent"
+                android:layout_marginStart="20dp"
+                android:id="@+id/collections"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:clickable="true"
+                app:srcCompat="@drawable/collections" />
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:contentDescription="@string/app_name"
+                android:backgroundTint="@color/colorAccent"
+                android:layout_marginStart="20dp"
+                android:id="@+id/vadiveluMovies"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:clickable="true"
+                app:srcCompat="@drawable/local_movies" />
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:text="@string/recommended_social_sites"/>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:scrollbars="horizontal"
+                android:orientation="horizontal"
+                android:id="@+id/recyclerViewSocialMedia"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
